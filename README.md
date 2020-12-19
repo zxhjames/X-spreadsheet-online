@@ -92,7 +92,7 @@ npm install
 npm run dev
 ```
 
-## 关注我
+## 微信公众号
 
 ![](https://github.com/zxhjames/learn_resource/blob/gongzhonghao/gongzhonghao.jpg?raw=true)
 
