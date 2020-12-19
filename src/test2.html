@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+    <p>单击按钮触发函数。</p>
+    <button id="button">点我</button>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("button").addEventListener("click", function () {
+            const updateInstance = axios.create();
+            updateInstance.get(" http://10.65.1.150:9091/v2/hello")
+                .then(response => {
+                    console.log(response);
+                })
+                .catch(error => {
+                    console.log(error);
+                })
+        });
+    </script>
+
+</body>
+
+</html>

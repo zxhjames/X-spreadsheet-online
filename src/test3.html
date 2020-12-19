@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>zzw_drap</title>
+    <style type="text/css">
+        @keyframes loading {
+            0% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+
+            30% {
+                transform: translateY(0);
+                opacity: .3;
+            }
+
+            50% {
+                transform: translateY(-20px);
+                opacity: .8;
+            }
+
+            70% {
+                transform: translateY(3px);
+                opacity: .8;
+            }
+
+            85% {
+                transform: translateY(-3px);
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        .x-spreadsheet-page {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #f3f3f3;
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            z-index: 1000;
+        }
+        .loading-content {
+            font-weight: bold;
+        }
+        
+        .x-spreadsheet-loading-div {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 15px;
+            margin-top: 20px;
+            background-color: #7a7979;
+        }
+
+        .x-spreadsheet-loading-div:nth-child(1) {
+            animation: loading 1.5s 0s infinite;
+        }
+
+        .x-spreadsheet-loading-div:nth-child(2) {
+            animation: loading 1.5s 0.3s infinite;
+        }
+
+        .x-spreadsheet-loading-div:nth-child(3) {
+            animation: loading 1.5s 0.6s infinite;
+        }
+
+        .x-spreadsheet-loading-div:nth-child(4) {
+            animation: loading 1.5s 0.9s infinite;
+        }
+
+        .x-spreadsheet-loading-div:nth-child(5) {
+            animation: loading 1.5s 1.2s infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="x-spreadsheet-page">
+        <div class="x-spreadsheet-loading-content">Loading...</div>
+        <div class="x-spreadsheet-loading-container">
+            <div class="x-spreadsheet-loading-div"></div>
+            <div class="x-spreadsheet-loading-div"></div>
+            <div class="x-spreadsheet-loading-div"></div>
+            <div class="x-spreadsheet-loading-div"></div>
+            <div class="x-spreadsheet-loading-div"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
