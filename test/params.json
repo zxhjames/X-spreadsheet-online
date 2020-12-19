@@ -1,0 +1,386 @@
+{
+  "cell": {
+    "cols": [{
+      "index": "B",
+      "width": "90"
+    }],
+    "rows": [{
+      "index": "1",
+      "width": "90"
+    }]
+  },
+  "data": [{
+    "mergeOrNot": ["A1"],
+    "style": {
+      "color":"",
+      "bgcolor":"",
+      "align":"",
+      "valign":"",
+      "font":{
+        "name": "",
+        "size": 10,
+        "bold":false,
+        "italic":false
+      },
+      "underline":false,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":false
+    },
+    "text": "行高"
+  }, {
+    "mergeOrNot": ["B2"],
+    "style": {
+      "color":"",
+      "bgcolor":"",
+      "align":"",
+      "valign":"",
+      "font":{
+        "name": "",
+        "size": 10,
+        "bold":false,
+        "italic":false
+      },
+      "underline":false,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":false
+    },
+    "text": "列宽"
+  }, {
+    "mergeOrNot": ["C3"],
+    "style": {
+      "color":"",
+      "bgcolor":"",
+      "align":"",
+      "valign":"",
+      "font":{
+        "name": "",
+        "size": 10,
+        "bold":false,
+        "italic":false
+      },
+      "underline":false,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":false
+    },
+    "text": "默认样式"
+  }, {
+    "mergeOrNot": ["C4"],
+    "style": {
+      "color":"",
+      "bgcolor":"",
+      "align":"",
+      "valign":"",
+      "font":{
+        "name": "",
+        "size": 10,
+        "bold":true,
+        "italic":false
+      },
+      "underline":false,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":false
+    },
+    "text": "粗体"
+  },{
+    "mergeOrNot": ["D4"],
+    "style": {
+      "color":"",
+      "bgcolor":"",
+      "align":"",
+      "valign":"",
+      "font":{
+        "name": "",
+        "size": 10,
+        "bold":false,
+        "italic":true
+      },
+      "underline":false,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":false
+    },
+    "text": "斜体"
+  },{
+    "mergeOrNot": ["C5"],
+    "style": {
+      "color":"",
+      "bgcolor":"",
+      "align":"",
+      "valign":"",
+      "font":{
+        "name": "",
+        "size": 10,
+        "bold":false,
+        "italic":false
+      },
+      "underline":true,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":false
+    },
+    "text": "下划线"
+  },{
+    "mergeOrNot": ["D5"],
+    "style": {
+      "color":"#fe0000",
+      "bgcolor":"",
+      "align":"",
+      "valign":"",
+      "font":{
+        "name": "",
+        "size": 10,
+        "bold":false,
+        "italic":false
+      },
+      "underline":false,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":false
+    },
+    "text": "字体颜色"
+  },{
+    "mergeOrNot": ["C6"],
+    "style": {
+      "color":"",
+      "bgcolor":"#fe0000",
+      "align":"",
+      "valign":"",
+      "font":{
+        "name": "",
+        "size": 10,
+        "bold":false,
+        "italic":false
+      },
+      "underline":false,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":false
+    },
+    "text": "背景颜色"
+  },{
+    "mergeOrNot": ["D6"],
+    "style": {
+      "color":"",
+      "bgcolor":"",
+      "align":"",
+      "valign":"",
+      "font":{
+        "name": "",
+        "size": 10,
+        "bold":false,
+        "italic":false
+      },
+      "underline":false,
+      "border":{
+        "bottom":["thick", "#fe0000"],
+        "top":["thick", "#fe0000"],
+        "left":["thick", "#fe0000"],
+        "right":["thick", "#fe0000"]
+      },
+      "textwrap":false
+    },
+    "text": "边框"
+  },{
+    "mergeOrNot": ["C7"],
+    "style": {
+      "color":"",
+      "bgcolor":"",
+      "align":"center",
+      "valign":"",
+      "font":{
+        "name": "",
+        "size": 10,
+        "bold":false,
+        "italic":false
+      },
+      "underline":false,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":false
+    },
+    "text": "水平对齐"
+  },{
+    "mergeOrNot": ["D7"],
+    "style": {
+      "color":"",
+      "bgcolor":"",
+      "align":"",
+      "valign":"top",
+      "font":{
+        "name": "",
+        "size": 10,
+        "bold":false,
+        "italic":false
+      },
+      "underline":false,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":false
+    },
+    "text": "垂直对齐"
+  },{
+    "mergeOrNot": ["C8"],
+    "style": {
+      "color":"",
+      "bgcolor":"",
+      "align":"",
+      "valign":"",
+      "font":{
+        "name": "",
+        "size": 10,
+        "bold":false,
+        "italic":false
+      },
+      "underline":false,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":true
+    },
+    "text": "自动换行"
+  },{
+    "mergeOrNot": ["D8"],
+    "style": {
+      "color":"",
+      "bgcolor":"",
+      "align":"",
+      "valign":"",
+      "font":{
+        "name": "",
+        "size": 20,
+        "bold":false,
+        "italic":false
+      },
+      "underline":false,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":true
+    },
+    "text": "字体大小"
+  },{
+    "mergeOrNot": ["C9"],
+    "style": {
+      "color":"",
+      "bgcolor":"",
+      "align":"",
+      "valign":"",
+      "font":{
+        "size": 20,
+        "bold":false,
+        "italic":false,
+        "name": "Source Sans Pro"
+      },
+      "underline":false,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":true
+    },
+    "text": "字体"
+  },{
+    "mergeOrNot": ["D9","E10"],
+    "style": {
+      "color":"",
+      "bgcolor":"",
+      "align":"",
+      "valign":"",
+      "font":{
+        "size": 10,
+        "bold":false,
+        "italic":false,
+        "name": "Source Sans Pro"
+      },
+      "underline":false,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":true
+    },
+    "text": "合并单元格"
+  },{
+    "mergeOrNot": ["C11","D13"],
+    "style": {
+      "color":"",
+      "bgcolor":"#fe0000",
+      "align":"",
+      "valign":"",
+      "font":{
+        "name": "",
+        "size": 10,
+        "bold":true,
+        "italic":false,
+      },
+      "underline":false,
+      "border":{
+        "bottom":[],
+        "top":[],
+        "left":[],
+        "right":[]
+      },
+      "textwrap":true
+    },
+    "text": "合并单元格并设置样式"
+  }
+  ],
+  "time": "2020-10-14 10:57:28",
+  "name": "测试表格",
+  "api": "http://www.baidu.com",
+  "author": "JH"
+}

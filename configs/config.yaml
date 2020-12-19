@@ -1,0 +1,39 @@
+# 全局配置文件
+
+# 服务器配置信息
+Server:
+  RunMode: release #开发模式
+  HttpPort: 9091  #端口
+  ReadTimeout: 60 #超时时间
+  WriteTimeout: 60 #超时时间
+
+# app配置信息
+App:
+  AppName: sheetServerApi #APP名称
+  LogFilePath: /go/src/log #日志记录位置
+  LogFileName: system.log #日志名
+  ReleaseUrl: http://localhost #生产环境的配置
+  ConfigDir: /Users/mac/go/src/sheetServerApi/configs #配置文件的测试目录
+  ExcelFileDir: /sheets/ #文件下载地址
+
+# 数据库连接池 orm
+DatabaseOrm:
+  DBType: postgres
+  Username: root
+  Password: 123456
+  Host: localhost
+  Port: 5432
+  DBName: postgres
+  MaxIdleConns: 1
+  MaxOpenConns: 2
+
+# 数据库池 sqlx
+DatabaseSqlx:
+  DBType: postgres
+  Username: root
+  Password: 123456
+  Host: localhost
+  Port: 5432
+  DBName: postgres
+  MaxIdleConns: 1
+  MaxOpenConns: 2
