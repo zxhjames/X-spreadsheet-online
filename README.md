@@ -96,6 +96,7 @@ npm run dev
 ```
 
 ## 微信公众号
+更多分享请关注我的公众号《James的黑板报》
 
 ![](https://github.com/zxhjames/learn_resource/blob/gongzhonghao/gongzhonghao.jpg?raw=true)
 
