@@ -1,5 +1,8 @@
 # X-spreadsheet-online 一款轻量级别的在线excel
 
+前端库借鉴了:
+[https://github.com/myliang/x-spreadsheet](https://github.com/myliang/x-spreadsheet)
+
 ## 访问地址
 
 [http://106.75.227.222:5001/](http://106.75.227.222:5001/)
