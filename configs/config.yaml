@@ -20,7 +20,7 @@ App:
 DatabaseOrm:
   DBType: postgres
   Username: root
-  Password: 123456
+  Password: 
   Host: localhost
   Port: 5432
   DBName: postgres
@@ -31,7 +31,7 @@ DatabaseOrm:
 DatabaseSqlx:
   DBType: postgres
   Username: root
-  Password: 123456
+  Password: 
   Host: localhost
   Port: 5432
   DBName: postgres
