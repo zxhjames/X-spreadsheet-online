@@ -5,6 +5,10 @@
 前端库借鉴了:
 [https://github.com/myliang/x-spreadsheet](https://github.com/myliang/x-spreadsheet)
 
+后端表格库与生成算法基于: [https://github.com/qax-os/excelize](https://github.com/qax-os/excelize)
+
+我对他们做了整合，添加了表格生成算法
+
 ## 访问地址
 
 [http://106.75.227.222:5001/](http://106.75.227.222:5001/)
