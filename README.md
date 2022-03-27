@@ -1,4 +1,6 @@
-# X-spreadsheet-online 一款轻量级别的在线excel
+# X-spreadsheet-online 一款轻量级别的在线excel ✈
+
+![img]( https://img.shields.io/badge/X--spreadsheet--online-James-brightgreen)
 
 前端库借鉴了:
 [https://github.com/myliang/x-spreadsheet](https://github.com/myliang/x-spreadsheet)
