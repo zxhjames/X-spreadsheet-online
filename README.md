@@ -21,11 +21,6 @@
 ![](https://github.com/zxhjames/learn_resource/blob/gif/mygif/test4-min.gif?raw=true)
 
 
-如果喜欢的话，就请作者喝杯☕️继续创作吧!
-
-<img src="https://raw.githubusercontent.com/zxhjames/ImageReposity/master/WechatIMG514.jpeg" width="200" height="300" alt="微信小程序"/><br/>
-
-
 ## 如何安装
 
 * 后端
