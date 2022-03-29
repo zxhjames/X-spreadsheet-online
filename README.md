@@ -1,13 +1,14 @@
 # X-spreadsheet-online 一款轻量级别的在线excel ✈
 
 ![img]( https://img.shields.io/badge/X--spreadsheet--online-James-brightgreen)
+![img]( https://img.shields.io/badge/License-MIT-orange)
+
+X-spreadsheet是一个可扩展的Web端在线表格排版生成器，支持自定义数据字段导出，可以在此代码上进行扩展开发
 
 前端库借鉴了:
 [https://github.com/myliang/x-spreadsheet](https://github.com/myliang/x-spreadsheet)
 
-后端表格库与生成算法基于: [https://github.com/qax-os/excelize](https://github.com/qax-os/excelize)
-
-我对他们做了整合，添加了表格生成算法
+后端表格库与数据填充生成算法基于: [https://github.com/qax-os/excelize](https://github.com/qax-os/excelize)
 
 ## 访问地址
 
