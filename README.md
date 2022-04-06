@@ -5,7 +5,7 @@
 
 X-spreadsheet是一个可扩展的Web端在线表格排版生成器，支持自定义数据字段导出，可以在此代码上进行扩展开发
 
-后续想法: 添加添加websocket+协程的血统功能
+后续想法: 添加添加websocket+协程的协同功能
 
 前端库借鉴了:
 [https://github.com/myliang/x-spreadsheet](https://github.com/myliang/x-spreadsheet)
