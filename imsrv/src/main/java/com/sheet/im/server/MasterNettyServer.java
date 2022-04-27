@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 
 import java.net.InetSocketAddress;
 
-@Component("nettyServer")
+@Component("masterNettyServer")
 public class MasterNettyServer {
 
     private Logger logger = LoggerFactory.getLogger(MasterNettyServer.class);
@@ -31,17 +31,20 @@ public class MasterNettyServer {
                     .channel(NioServerSocketChannel.class)    //非阻塞模式
                     .option(ChannelOption.SO_BACKLOG, 128)          // (5)
                     .childOption(ChannelOption.SO_KEEPALIVE, true) //
-                    .childHandler(new MyChannelInitializer());
-
+                    .childHandler(new MasterInitializer());
+            /**
+             *  childOption的含义以及使用的场景
+             *  1. SO_BACKLOG 对应的是tcp/ip协议listen中的backlog参数，用于初始化服务端可连接队列
+             */
             channelFuture = b.bind(address).sync();
             channel = channelFuture.channel();
         } catch (Exception e) {
             logger.error(e.getMessage());
         } finally {
             if (null != channelFuture && channelFuture.isSuccess()) {
-                logger.info("itstack-demo-netty server start done. {关注公众号：bugstack虫洞栈，获取源码}");
+                logger.info("master服务启动>>>>>>>>>>>>>>>");
             } else {
-                logger.error("itstack-demo-netty server start error. {关注公众号：bugstack虫洞栈，获取源码}");
+                logger.error("master服务出错>>>>>>>>>>>>>>>");
             }
         }
         return channelFuture;
